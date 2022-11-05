@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destaques | Jaraguá - Natureza é o seu lugar</title>
+    <link rel="stylesheet" href="style-p5.css">
+    <link rel="icon" href="LOGO.png">
+</head>
+<body>
+    <header >
+        <nav class="topo">
+            <img src="JARAGUA.png" alt="Logo Jaraguá: Natureza é o seu lugar" width="185px">
+            <div class="textoscab">
+                <a href="p1-principal.html">Início</a>
+                <a href="p2-destaques.html">Destaques</a>
+                <a href="p3-história.html">História</a>
+                <a href="p4-localização.html">Localização</a>
+                <a href="p5-formulários.html">Formulário</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="titulo">
+            <h1 id="titulodes">FORMULÁRIO</h1>
+            <p id="aju">Ajude-nos a saber como foi a sua experiência em nosso site! Responda o formulário abaixo e comente ou dê sujestões de melhoria.</p>
+        </div>
+        <form>
+            <div id="formulariotela">
+                <fieldset>
+                    <div class="quest1">
+                        <label>Nome:</label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+                    <div class="quest2">
+                        <label>Sobrenome:</label>
+                        <input type="text" name="sobrenome" id="sobrenome" required>
+                    </div>
+                    <div class="quest3">
+                        <label>Email:</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="quest4">
+                        <label><strong>Gênero:</strong></label>
+                        <label>
+                            <input type="radio" name="devweb" value="frontend" required>Masculino
+                        </label>
+                        <label>
+                            <input type="radio" name="devweb" value="backend">Feminino
+                        </label>
+                        <label>
+                            <input type="radio" name="devweb" value="fullstack">Outro
+                        </label>
+                    </div>
+                    <div class="quest5">
+                        <label>Comentário/Sugestão:</label>
+                        <textarea row="6" style="width: 378px; height: 109px;" id="comentario" name="comentario" required></textarea>
+                    </div>
+                </fieldset>
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div id="eu-referencia">
+            <img id="rodape-logo" src="RODAPE.png" alt="logo-germinare">
+            <img id="rodape-logo" src="RODAPE2.png" alt="Logo PicPay">
+            <p>João Gabriel Santana de Souza | Nº12 | 9ºE</p>
+        </div>
+    </footer>
+</body>
